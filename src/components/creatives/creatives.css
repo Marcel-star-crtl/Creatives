@@ -1,0 +1,107 @@
+.gpt3__creative {
+    padding: 0 6rem 4rem 6rem;
+}
+
+
+.gpt3__header-content__input button {
+    width: 150px;
+    min-height: 40px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    border: 2px solid #000000;
+    padding: 0 1rem !important;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    justify-content: center;
+    background: #DD330B;
+    border-radius: 5px;
+}
+
+.gpt3__header-content__input button:hover {
+    background-color: #ffffff;
+    color: #DD330B;
+}
+
+.gpt3__creatives-links_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gpt3__creatives-links_div h4 {
+    font-size: 30px;
+    line-height: 17px;
+    font-family: 'Syne', sans-serif !important;
+    color: #fff;
+
+    margin-bottom: 0.9rem;
+}
+
+.gpt3__creatives-links_div p {
+    font-size: 16px;
+    line-height: 15px;
+    font-family: 'Syne', sans-serif !important;
+    color: #fff;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.gpt3__creatives-links_div--contact {
+    text-align: right;
+}
+
+.gpt3__creatives-links_div--contact h4 {
+    text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+    .gpt3__creatives-links div {
+        margin: 1rem 0;
+        width: calc(50% - 2rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gpt3__creative {
+        display: flex;
+        flex-direction: row;
+        padding: 0 4rem 0 4rem;
+    }
+
+    .gpt3__footer-links_div {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .gpt3__creatives-links_div--contact {
+        text-align: left !important;
+        padding-top: 20px
+    }
+    
+    .gpt3__creatives-links_div--contact h4 {
+        text-align: left !important;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    /* .gpt3__creative {
+        display: none !important;
+    } */
+    .gpt3__creatives-links_div {
+        margin-top: 70px;
+    }
+    .gpt3__creative {
+        display: flex;
+        flex-direction: row;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .gpt3__creatives-links_div--contact {
+        text-align: left !important;
+    }
+}

@@ -1,0 +1,135 @@
+/* .text-lg {
+  font-size: 500px; 
+}
+
+.md\:text-xl {
+  font-size: 50px;
+  line-height: 45px;
+}
+
+.font-bold {
+  font-weight: bold; 
+}
+
+.text-white {
+  color: white; 
+}
+
+.mb-4 {
+  margin-bottom: 1rem; 
+}
+
+@media (min-width: 768px) {
+  .text-lg {
+    font-size: 1.25rem; 
+  }
+
+  .md\:text-xl {
+    font-size: 1.5rem; 
+  }
+} */
+
+/*
+.connect {
+  background: rgba(30, 30, 30, 1);
+  font-family: 'Syne';
+  margin: 4rem 6rem 0 6rem;
+}
+
+@media (max-width: 1200px) {
+  
+  .connect h2 {
+    font-size: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: .1rem;
+    padding-left: .1rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .connect h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .md\:pl-20 {
+    padding-left: 8rem;
+  }
+}
+
+*/
+
+/*@media (min-width: 1125px) {*/
+
+.instagram-button,
+.linkedin-button,
+.twitter-button {
+  background-color: #DD330B;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.instagram-button:hover,
+.linkedin-button:hover,
+.twitter-button:hover {
+  background-color: #ffffff;
+  color: #DD330B;
+}
+
+@media (min-width: 1140px) {
+  
+  .reach {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .connect {
+    flex-direction: column;
+    align-items: center;
+    parding-right: 2rem !important;
+  }
+
+  .connect h2 {
+    text-align: center;
+  }
+
+  .connect .md\:w-7\/12 {
+    width: 100%;
+  }
+
+  .connect-buttons {
+    justify-content: center;
+  }
+
+  .connect .md\:order-1 {
+    order: 2;
+  }
+
+  .connect .md\:order-2 {
+    order: 1;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .px-10 {
+    padding: 0 1rem !important; 
+  }
+
+  .connect {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .connect h2 {
+    text-align: enter;
+    font-size: 40px;
+  }
+}
