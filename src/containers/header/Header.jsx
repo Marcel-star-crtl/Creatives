@@ -45,7 +45,7 @@
 
 
 import React from 'react';
-import ulevus from '../../assets/u.PNG';
+import ulevus from '../../assets/u.jpg';
 import ai from '../../assets/ai5.png';
 import './header.css';
 

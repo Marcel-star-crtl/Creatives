@@ -18,7 +18,7 @@ const Footer = () => (
         <h4>Get in touch</h4>
         <p>Douala, Cameroon</p>
         <p>+237 679623977</p>
-        <p>contact@ulevus.com</p>
+        <p>info@goshen.com</p>
       </div>
     </div>
   </div>
